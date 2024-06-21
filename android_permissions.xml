@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <!-- Permission to access the microphone -->
+    <permission name="android.permission.RECORD_AUDIO">
+        <platform name="android">
+            <config-file target="AndroidManifest.xml" parent="/manifest">
+                <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+            </config-file>
+        </platform>
+    </permission>
+    <!-- Permission to access files -->
+    <permission name="android.permission.READ_EXTERNAL_STORAGE">
+        <platform name="android">
+            <config-file target="AndroidManifest.xml" parent="/manifest">
+                <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+            </config-file>
+        </platform>
+    </permission>
+</permissions>
